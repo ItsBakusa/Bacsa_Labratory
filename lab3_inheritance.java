@@ -89,7 +89,7 @@ public class lab3_inheritance {
     public static void main(String[] args) {
         Student student = new Student("Bakusa", 1001, "College");
         Teacher teacher = new Teacher("Sir Archie", 2001, "Coding And Fundamentals");
-        Staff staff = new Staff("Sir Jayson", 3001, "Administration");
+        Staff staff = new Staff("Sir Aramil", 3001, "Program Chair");
 
         System.out.println("--- Student Info ---");
         student.displayInfo();
