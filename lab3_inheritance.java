@@ -1,6 +1,3 @@
-// lab3-inheritance.java
-
-// Base class: Person
 class Person {
     private String name;
     private int id;
@@ -24,7 +21,6 @@ class Person {
     }
 }
 
-// Subclass: Student
 class Student extends Person {
     private String gradeLevel;
 
@@ -44,7 +40,6 @@ class Student extends Person {
     }
 }
 
-// Subclass: Teacher
 class Teacher extends Person {
     private String subject;
 
@@ -64,7 +59,6 @@ class Teacher extends Person {
     }
 }
 
-// Subclass: Staff
 class Staff extends Person {
     private String department;
 
@@ -84,7 +78,6 @@ class Staff extends Person {
     }
 }
 
-// Main class - only this should be public
 public class lab3_inheritance {
     public static void main(String[] args) {
         Student student = new Student("John Harry M. Bacsa", 1001, "College");
